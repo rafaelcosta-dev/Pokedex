@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#818080"/> <!-- Cor da sombra -->
+            <corners android:radius="10dp"/> <!-- Arredondar os cantos -->
+            <stroke android:width="2dp"/>
+        </shape>
+    </item>
+    <!-- Botão (ajuste os margens para criar o efeito de sombra) -->
+    <item android:left="7dp" android:right="0dp" android:top="0dp" android:bottom="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#D5D3D3"/> <!-- Cor de fundo do botão -->
+
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+</layer-list>
